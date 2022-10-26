@@ -1,0 +1,12 @@
+#light{
+  background-color: rgb(243, 235, 246);
+}
+#dark{
+  background-color: rgb(206, 214, 199);
+}
+.errorAll{
+  background-color: chartreuse;
+  text-align: center;
+  font-size: 20px;
+}
+

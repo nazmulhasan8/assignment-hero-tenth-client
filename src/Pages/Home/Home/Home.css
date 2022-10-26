@@ -1,0 +1,17 @@
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin: 100px 50px;
+}
+
+@media screen and (max-width:1000px) {
+    .products-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
