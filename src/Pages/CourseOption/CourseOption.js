@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -7,7 +7,7 @@ const CourseOption = () => {
     const [courseCategories, setCourseCategories] = useState([]);
 
     useEffect( () =>{
-        fetch('http://localhost:5000/courseCategories')
+        fetch('https://assignment-hero-tenth-server.vercel.app/courseCategories')
         .then( res => res.json())
         .then(data => setCourseCategories(data));
     }, [])
