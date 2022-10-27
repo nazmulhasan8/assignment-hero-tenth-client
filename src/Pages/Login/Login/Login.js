@@ -9,7 +9,7 @@ import RightSideNav from '../../Shared/RightSideNav/RightSideNav';
 
 const Login = () => {
     const [error, setError] = useState('');
-    const { signIn, setLoading } = useContext(AuthContext);
+    const { signIn, setLoading, setUser } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -28,7 +28,9 @@ const Login = () => {
                 form.reset();
                 setError('');
                 if(user.emailVerified){
+                    setUser(user);
                     navigate(from, {replace: true});
+                    
                 }
                 else{
                     toast.error('Your email is not verified. Please verify your email address.')
