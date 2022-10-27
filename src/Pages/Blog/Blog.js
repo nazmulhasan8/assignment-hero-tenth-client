@@ -7,7 +7,7 @@ const Blog = () => {
         {/* <!-- blogs start --> */}
         <div className="courses-all w-100 my-5 py-5">
           <div className="container text-center my-5" id="courses">
-            <h2 className="py-2">All The Blog Post</h2>
+            <h2 className="py-2">AllThe Blog Post</h2>
             <div className="course row g-4 categories">
               {/* <!-- single blog1 --> */}
               <div className="col-lg-12 col-md-12 col-sm-12">

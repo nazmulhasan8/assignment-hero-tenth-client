@@ -68,7 +68,7 @@ const Login = () => {
             </Form.Text>
         </Form>
                        </Col>
-                       <Col lg="3">
+                       <Col lg="3" className="mt-4">
                        <RightSideNav></RightSideNav>
                        </Col>
                        
