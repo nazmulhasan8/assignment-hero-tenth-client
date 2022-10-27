@@ -16,7 +16,7 @@ const Blog = () => {
                 >
                   <div className="card-body text-start px-3">
                     <h4 className="title">
-                    1. what is cors in express?
+                    1. what is cors inexpress?
                     </h4>
                     <p className="card-text">
                     CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.This module supports validating the origin dynamically using a function provided to the origin option. This function will be passed a string that is the origin (or undefined if the request has no origin), and a callback with the signature callback(error, origin).The origin argument to the callback can be any value allowed for the origin option of the middleware, except a function. See the configuration options section for more information on all the possible value types.This function is designed to allow the dynamic loading of allowed origin(s) from a backing datasource, like a database.Certain CORS requests are considered ‘complex’ and require an initial OPTIONS request (called the “pre-flight request”). An example of a ‘complex’ CORS request is one that uses an HTTP verb other than GET/HEAD/POST (such as DELETE) or that uses custom headers. To enable pre-flighting, you must add a new OPTIONS handler for the route you want to support.
