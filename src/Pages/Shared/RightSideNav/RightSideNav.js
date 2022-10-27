@@ -31,7 +31,7 @@ const RightSideNav = () => {
                 }
             })
             .catch(error => console.error(error))
-            .finally(() => {
+             .finally(() => {
                 setLoading(false);
             })
     }
@@ -41,16 +41,15 @@ const RightSideNav = () => {
             .then(result => {
                 const user = result.user;
                 if(user){
-                    console.log(user); 
                     setUser(user);
-                    navigate(from, {replace: true});                            
+                    navigate(from, {replace: true});
+                    console.log(user);               
                 }
                
             })
             .catch(error => console.error(error))
             .finally(() => {
                 setLoading(false);
-                
             })
     }
 

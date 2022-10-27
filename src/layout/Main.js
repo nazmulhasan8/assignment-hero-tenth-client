@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Outlet } from 'react-router-dom';
-import CourseOption from '../Pages/CourseOption/CourseOption';
+import CourseOption from '../Pages/Shared/CourseOption/CourseOption';
 import Header from '../Pages/Shared/Header/Header';
 
 const Main = () => {

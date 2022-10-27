@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 import Button from 'react-bootstrap/Button';
 import Brand4 from '../../../assets/brands/Brand4.png';
-import CourseOption from '../../CourseOption/CourseOption';
+import CourseOption from '../CourseOption/CourseOption';
 import ReactSwitch from "react-switch";
 
 
